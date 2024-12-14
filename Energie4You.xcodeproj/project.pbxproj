@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		8661A5C52D0DCB6000D27DCC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8661A5AC2D0DCB6000D27DCC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8661A5B32D0DCB6000D27DCC;
+			remoteInfo = Energie4You;
+		};
+		8661A5CF2D0DCB6000D27DCC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8661A5AC2D0DCB6000D27DCC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8661A5B32D0DCB6000D27DCC;
+			remoteInfo = Energie4You;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8661A5B42D0DCB6000D27DCC /* Energie4You.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Energie4You.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8661A5C42D0DCB6000D27DCC /* Energie4YouTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Energie4YouTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8661A5CE2D0DCB6000D27DCC /* Energie4YouUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Energie4YouUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		8661A5B62D0DCB6000D27DCC /* Energie4You */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Energie4You;
+			sourceTree = "<group>";
+		};
+		8661A5C72D0DCB6000D27DCC /* Energie4YouTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Energie4YouTests;
+			sourceTree = "<group>";
+		};
+		8661A5D12D0DCB6000D27DCC /* Energie4YouUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Energie4YouUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8661A5B12D0DCB6000D27DCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8661A5C12D0DCB6000D27DCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8661A5CB2D0DCB6000D27DCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8661A5AB2D0DCB6000D27DCC = {
+			isa = PBXGroup;
+			children = (
+				8661A5B62D0DCB6000D27DCC /* Energie4You */,
+				8661A5C72D0DCB6000D27DCC /* Energie4YouTests */,
+				8661A5D12D0DCB6000D27DCC /* Energie4YouUITests */,
+				8661A5B52D0DCB6000D27DCC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8661A5B52D0DCB6000D27DCC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8661A5B42D0DCB6000D27DCC /* Energie4You.app */,
+				8661A5C42D0DCB6000D27DCC /* Energie4YouTests.xctest */,
+				8661A5CE2D0DCB6000D27DCC /* Energie4YouUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8661A5B32D0DCB6000D27DCC /* Energie4You */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8661A5D82D0DCB6000D27DCC /* Build configuration list for PBXNativeTarget "Energie4You" */;
+			buildPhases = (
+				8661A5B02D0DCB6000D27DCC /* Sources */,
+				8661A5B12D0DCB6000D27DCC /* Frameworks */,
+				8661A5B22D0DCB6000D27DCC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				8661A5B62D0DCB6000D27DCC /* Energie4You */,
+			);
+			name = Energie4You;
+			packageProductDependencies = (
+			);
+			productName = Energie4You;
+			productReference = 8661A5B42D0DCB6000D27DCC /* Energie4You.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8661A5C32D0DCB6000D27DCC /* Energie4YouTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8661A5DB2D0DCB6000D27DCC /* Build configuration list for PBXNativeTarget "Energie4YouTests" */;
+			buildPhases = (
+				8661A5C02D0DCB6000D27DCC /* Sources */,
+				8661A5C12D0DCB6000D27DCC /* Frameworks */,
+				8661A5C22D0DCB6000D27DCC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8661A5C62D0DCB6000D27DCC /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				8661A5C72D0DCB6000D27DCC /* Energie4YouTests */,
+			);
+			name = Energie4YouTests;
+			packageProductDependencies = (
+			);
+			productName = Energie4YouTests;
+			productReference = 8661A5C42D0DCB6000D27DCC /* Energie4YouTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8661A5CD2D0DCB6000D27DCC /* Energie4YouUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8661A5DE2D0DCB6000D27DCC /* Build configuration list for PBXNativeTarget "Energie4YouUITests" */;
+			buildPhases = (
+				8661A5CA2D0DCB6000D27DCC /* Sources */,
+				8661A5CB2D0DCB6000D27DCC /* Frameworks */,
+				8661A5CC2D0DCB6000D27DCC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8661A5D02D0DCB6000D27DCC /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				8661A5D12D0DCB6000D27DCC /* Energie4YouUITests */,
+			);
+			name = Energie4YouUITests;
+			packageProductDependencies = (
+			);
+			productName = Energie4YouUITests;
+			productReference = 8661A5CE2D0DCB6000D27DCC /* Energie4YouUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8661A5AC2D0DCB6000D27DCC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					8661A5B32D0DCB6000D27DCC = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					8661A5C32D0DCB6000D27DCC = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 8661A5B32D0DCB6000D27DCC;
+					};
+					8661A5CD2D0DCB6000D27DCC = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 8661A5B32D0DCB6000D27DCC;
+					};
+				};
+			};
+			buildConfigurationList = 8661A5AF2D0DCB6000D27DCC /* Build configuration list for PBXProject "Energie4You" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8661A5AB2D0DCB6000D27DCC;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 8661A5B52D0DCB6000D27DCC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8661A5B32D0DCB6000D27DCC /* Energie4You */,
+				8661A5C32D0DCB6000D27DCC /* Energie4YouTests */,
+				8661A5CD2D0DCB6000D27DCC /* Energie4YouUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8661A5B22D0DCB6000D27DCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8661A5C22D0DCB6000D27DCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8661A5CC2D0DCB6000D27DCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8661A5B02D0DCB6000D27DCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8661A5C02D0DCB6000D27DCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8661A5CA2D0DCB6000D27DCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8661A5C62D0DCB6000D27DCC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8661A5B32D0DCB6000D27DCC /* Energie4You */;
+			targetProxy = 8661A5C52D0DCB6000D27DCC /* PBXContainerItemProxy */;
+		};
+		8661A5D02D0DCB6000D27DCC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8661A5B32D0DCB6000D27DCC /* Energie4You */;
+			targetProxy = 8661A5CF2D0DCB6000D27DCC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8661A5D62D0DCB6000D27DCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8661A5D72D0DCB6000D27DCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8661A5D92D0DCB6000D27DCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Energie4You/Preview Content\"";
+				DEVELOPMENT_TEAM = B9R2246AL3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Kevin.Energie4You;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8661A5DA2D0DCB6000D27DCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Energie4You/Preview Content\"";
+				DEVELOPMENT_TEAM = B9R2246AL3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Kevin.Energie4You;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8661A5DC2D0DCB6000D27DCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B9R2246AL3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Kevin.Energie4YouTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Energie4You.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Energie4You";
+			};
+			name = Debug;
+		};
+		8661A5DD2D0DCB6000D27DCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B9R2246AL3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Kevin.Energie4YouTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Energie4You.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Energie4You";
+			};
+			name = Release;
+		};
+		8661A5DF2D0DCB6000D27DCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B9R2246AL3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Kevin.Energie4YouUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Energie4You;
+			};
+			name = Debug;
+		};
+		8661A5E02D0DCB6000D27DCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B9R2246AL3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Kevin.Energie4YouUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Energie4You;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8661A5AF2D0DCB6000D27DCC /* Build configuration list for PBXProject "Energie4You" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8661A5D62D0DCB6000D27DCC /* Debug */,
+				8661A5D72D0DCB6000D27DCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8661A5D82D0DCB6000D27DCC /* Build configuration list for PBXNativeTarget "Energie4You" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8661A5D92D0DCB6000D27DCC /* Debug */,
+				8661A5DA2D0DCB6000D27DCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8661A5DB2D0DCB6000D27DCC /* Build configuration list for PBXNativeTarget "Energie4YouTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8661A5DC2D0DCB6000D27DCC /* Debug */,
+				8661A5DD2D0DCB6000D27DCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8661A5DE2D0DCB6000D27DCC /* Build configuration list for PBXNativeTarget "Energie4YouUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8661A5DF2D0DCB6000D27DCC /* Debug */,
+				8661A5E02D0DCB6000D27DCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8661A5AC2D0DCB6000D27DCC /* Project object */;
+}
