@@ -1,0 +1,1090 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		027436C38F17287CF56B16EE4D62F25F /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = B900E6B1E806CF0EFA18982C1EE5DC07 /* Helpers.swift */; };
+		16FE8C80FC03EB8E0D54B764183F0D73 /* Query.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB588A063A7ABE125919824DC5A21A5 /* Query.swift */; };
+		1AB0D53EE23AC3F809A898E69CCE92EC /* SQLite.swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C17B7C9F3E999D7DF623B5946E356505 /* SQLite.swift-dummy.m */; };
+		21CB7949E4E7D1446851AE5EAA7379DB /* Pods-Energie4You-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 79ECD6AB785E09463C9B4A4C04791CD4 /* Pods-Energie4You-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E22078E97A961BB5CAF84CA9567133B /* SQLite.swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7ED61F86CB94AB4E62FE72E9541AC218 /* SQLite.swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3166C3BDC0E6BE35B1B7F0CAF33CB71B /* Pods-Energie4YouTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3501A1BBD3FDD1B5575A6B29F6A60F9A /* Pods-Energie4YouTests-dummy.m */; };
+		3EF5D0DC3DAF38444AB4367761C168C0 /* Pods-Energie4You-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B79B5F7EE2778B52AFDB1E33E6C88FC /* Pods-Energie4You-dummy.m */; };
+		435FD6FAB1F6CAA69B7DD06F6511E35C /* SQLite.h in Headers */ = {isa = PBXBuildFile; fileRef = 0322C314C5D75641387E222BFA39F7F1 /* SQLite.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B58FC154F1827BEB366842DB645B4D6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		52CA054D8647B9D145C818B3C49FC2C8 /* Pods-Energie4You-Energie4YouUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3215417B8CD6D796477A300852B02EA2 /* Pods-Energie4You-Energie4YouUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		548161CD6D0298940EF8FA24028873E9 /* SQLiteObjc.h in Headers */ = {isa = PBXBuildFile; fileRef = D03475F5A126D6F9B31481C9E5867EB7 /* SQLiteObjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		56DFDAF0A4DE091197F9A7700511CBF6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		58EDA440377739B81E542D7F983AFF73 /* Statement.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBBC207E174F77439D1A9B9D4EACB9F /* Statement.swift */; };
+		630A831797CF918AFEEA1A5CD121D38F /* CoreFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F7A3AD4DEC9CFC4E7403C1A3A1D9CD /* CoreFunctions.swift */; };
+		7DC7EF4C37E4CF81BC2F3339B44814A0 /* Pods-Energie4YouTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A907C1E6E3C05B132C335F0E14773C6 /* Pods-Energie4YouTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		816967475757626552445596EB929532 /* SQLiteObjc.m in Sources */ = {isa = PBXBuildFile; fileRef = B9A5AEA48928740345A2F1744C2C0C6D /* SQLiteObjc.m */; };
+		84251D4983F485625C0B17B42D1DACD5 /* Schema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537D2153CA33638146911BEE2339AAA9 /* Schema.swift */; };
+		88CD9CF0290EF3B7CDFFEC9F1C6CC1DC /* CustomFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E46512F34DDA6D7CE8210E887D18AC4 /* CustomFunctions.swift */; };
+		902669E2CF98A58B146F96702692AF75 /* Expression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77379F600D91CEB0D7F699F04CC353A7 /* Expression.swift */; };
+		9102C145565BDDAFD07FF938958F16DC /* Blob.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57CC3D6F8E4EE3D1356AC189C751A0B5 /* Blob.swift */; };
+		9FB4C9F87DE6CF1DC55190B23DFB9BAC /* Coding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07001700AD11267075AFE4FD2C80D033 /* Coding.swift */; };
+		A36BD4750D6C78AFEA25966B1985C74E /* fts3_tokenizer.h in Headers */ = {isa = PBXBuildFile; fileRef = F17034ADABCC2C83FFF6086CEC3FBE02 /* fts3_tokenizer.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		A491D631C9034A24FD669C8CC5FAF615 /* FTS5.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3A68A62279CBF13CA2638DE2A6868E /* FTS5.swift */; };
+		B0406373C2DA4B7D66EB59E5F33654A0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		B351461EFC21BD843A293726F9EA602E /* Value.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DB56BFAB94A98B7401A1931B423E0D /* Value.swift */; };
+		C08BCC272FEB57C57C5D46707880801C /* Connection.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4152D918B47C6830DEE72C8770CF608 /* Connection.swift */; };
+		D38D12019CAAF7DC9AAF018F60674ED4 /* AggregateFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA68E1A054584E05154A345EE0B321C /* AggregateFunctions.swift */; };
+		D8ADA7B4AAF6F4C8E73AA8C511B9CCC4 /* RTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = F320EADCBFD92D198B7930FEE0E41E3C /* RTree.swift */; };
+		DD27B72C5284D2BBBEACCE09F60C16DB /* Foundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC3F18ACDFCBBEFFA1F95A13A1B6919 /* Foundation.swift */; };
+		DF3F4E1671F32E1B48D50505F47FE382 /* Pods-Energie4You-Energie4YouUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 95BD6978B3D8E925DEC724FB71802D3F /* Pods-Energie4You-Energie4YouUITests-dummy.m */; };
+		E1023FA94FB55D049606A9422BDC871C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		E18DF33E28064642A96F5B7E126635F8 /* DateAndTimeFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CD6930F976E00ACD360ED277DA0B636 /* DateAndTimeFunctions.swift */; };
+		E1B60D177E040F6B125ED0141DA77497 /* Setter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DCEC55EAEE07401F738B646F1F04076 /* Setter.swift */; };
+		E9153173AE183A3459976030A8B7C280 /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2069182B694C9047E125FDA74C5E0AA /* Errors.swift */; };
+		EA84CCF02D76B0915475C29D7880EDF3 /* Collation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B766B654D9F683D76B0D5E875AB1D16 /* Collation.swift */; };
+		F2CD078A02E17B3F466516B181805B79 /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA0F581AFA787466D89355FBEA84774 /* Operators.swift */; };
+		FC5586AAFEB28437A8989DDE74787DA4 /* FTS4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A123E51111823403249F3A2B7C4C38E /* FTS4.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		141C1E28D4723F9DD1AD9C13BDCE1896 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F2C1776D90B62B156DB52C41A5C419C;
+			remoteInfo = SQLite.swift;
+		};
+		48D29D369E43DEBFD44735D601FA80B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F2C1776D90B62B156DB52C41A5C419C;
+			remoteInfo = SQLite.swift;
+		};
+		640248E5DF7696A1C02F77D92181FF67 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADC1D4F3F556F6AADBAFB22BA717AC8A;
+			remoteInfo = "Pods-Energie4You";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0322C314C5D75641387E222BFA39F7F1 /* SQLite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SQLite.h; path = Sources/SQLite/SQLite.h; sourceTree = "<group>"; };
+		07001700AD11267075AFE4FD2C80D033 /* Coding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Coding.swift; path = Sources/SQLite/Typed/Coding.swift; sourceTree = "<group>"; };
+		0A907C1E6E3C05B132C335F0E14773C6 /* Pods-Energie4YouTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Energie4YouTests-umbrella.h"; sourceTree = "<group>"; };
+		0B766B654D9F683D76B0D5E875AB1D16 /* Collation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Collation.swift; path = Sources/SQLite/Typed/Collation.swift; sourceTree = "<group>"; };
+		1AB588A063A7ABE125919824DC5A21A5 /* Query.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Query.swift; path = Sources/SQLite/Typed/Query.swift; sourceTree = "<group>"; };
+		2FB70F8499C35FF7C2CA4123D1C2767E /* Pods-Energie4You-Energie4YouUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Energie4You-Energie4YouUITests"; path = Pods_Energie4You_Energie4YouUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FC3F18ACDFCBBEFFA1F95A13A1B6919 /* Foundation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Foundation.swift; path = Sources/SQLite/Foundation.swift; sourceTree = "<group>"; };
+		3144C31B75F4D40A6E44624FCECAB15D /* Pods-Energie4You-Energie4YouUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Energie4You-Energie4YouUITests.release.xcconfig"; sourceTree = "<group>"; };
+		31DE530A17EC63EDF97C92A7E090333B /* Pods-Energie4You-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Energie4You-frameworks.sh"; sourceTree = "<group>"; };
+		3215417B8CD6D796477A300852B02EA2 /* Pods-Energie4You-Energie4YouUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Energie4You-Energie4YouUITests-umbrella.h"; sourceTree = "<group>"; };
+		3501A1BBD3FDD1B5575A6B29F6A60F9A /* Pods-Energie4YouTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Energie4YouTests-dummy.m"; sourceTree = "<group>"; };
+		371DD9A05F1D3ED313B409EEF6FB2AB4 /* Pods-Energie4YouTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Energie4YouTests"; path = Pods_Energie4YouTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3B79B5F7EE2778B52AFDB1E33E6C88FC /* Pods-Energie4You-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Energie4You-dummy.m"; sourceTree = "<group>"; };
+		42B66EA6AD3DEB1F1E9A3718E2C63B8D /* Pods-Energie4You-Energie4YouUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Energie4You-Energie4YouUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		496496E9693CCAC8EFF0FF8B2FC3B82C /* Pods-Energie4You.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Energie4You.release.xcconfig"; sourceTree = "<group>"; };
+		537D2153CA33638146911BEE2339AAA9 /* Schema.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Schema.swift; path = Sources/SQLite/Typed/Schema.swift; sourceTree = "<group>"; };
+		55964B5A971C4F99A9FAA1C816379F8B /* Pods-Energie4YouTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Energie4YouTests.release.xcconfig"; sourceTree = "<group>"; };
+		57CC3D6F8E4EE3D1356AC189C751A0B5 /* Blob.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Blob.swift; path = Sources/SQLite/Core/Blob.swift; sourceTree = "<group>"; };
+		594004FEEF03486B1F4102F35A1C71A9 /* SQLite.swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SQLite.swift.modulemap; sourceTree = "<group>"; };
+		5A37F8992AF06A5D9A30D3593D02F825 /* Pods-Energie4You-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Energie4You-Info.plist"; sourceTree = "<group>"; };
+		5CD6930F976E00ACD360ED277DA0B636 /* DateAndTimeFunctions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateAndTimeFunctions.swift; path = Sources/SQLite/Typed/DateAndTimeFunctions.swift; sourceTree = "<group>"; };
+		5D656362DD283EE644AC33A2940ABD82 /* Pods-Energie4You */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Energie4You"; path = Pods_Energie4You.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EAC56276648C54C1509548F68A13DDC /* Pods-Energie4You-Energie4YouUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Energie4You-Energie4YouUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		65F7A3AD4DEC9CFC4E7403C1A3A1D9CD /* CoreFunctions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoreFunctions.swift; path = Sources/SQLite/Typed/CoreFunctions.swift; sourceTree = "<group>"; };
+		6A123E51111823403249F3A2B7C4C38E /* FTS4.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FTS4.swift; path = Sources/SQLite/Extensions/FTS4.swift; sourceTree = "<group>"; };
+		6DE0616472B1B0BF88AF238EB3139BB6 /* Pods-Energie4YouTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Energie4YouTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		75DB56BFAB94A98B7401A1931B423E0D /* Value.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Value.swift; path = Sources/SQLite/Core/Value.swift; sourceTree = "<group>"; };
+		77379F600D91CEB0D7F699F04CC353A7 /* Expression.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Expression.swift; path = Sources/SQLite/Typed/Expression.swift; sourceTree = "<group>"; };
+		79B25B117AEFCF7C61BF238C6918E90F /* Pods-Energie4You-Energie4YouUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Energie4You-Energie4YouUITests.modulemap"; sourceTree = "<group>"; };
+		79ECD6AB785E09463C9B4A4C04791CD4 /* Pods-Energie4You-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Energie4You-umbrella.h"; sourceTree = "<group>"; };
+		7C062F4CEAC0B9DF1806789D3D8842FE /* Pods-Energie4YouTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Energie4YouTests-Info.plist"; sourceTree = "<group>"; };
+		7DCEC55EAEE07401F738B646F1F04076 /* Setter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Setter.swift; path = Sources/SQLite/Typed/Setter.swift; sourceTree = "<group>"; };
+		7E46512F34DDA6D7CE8210E887D18AC4 /* CustomFunctions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomFunctions.swift; path = Sources/SQLite/Typed/CustomFunctions.swift; sourceTree = "<group>"; };
+		7ED61F86CB94AB4E62FE72E9541AC218 /* SQLite.swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SQLite.swift-umbrella.h"; sourceTree = "<group>"; };
+		85075ADD95B6C0F7592CDEC04ECC2113 /* SQLite.swift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SQLite.swift-Info.plist"; sourceTree = "<group>"; };
+		877088BBD463001DD4A7C2134F1B730F /* Pods-Energie4You-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Energie4You-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8A219801A0F59B7290A329D4C76801C1 /* Pods-Energie4You-Energie4YouUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Energie4You-Energie4YouUITests-Info.plist"; sourceTree = "<group>"; };
+		8AA0F581AFA787466D89355FBEA84774 /* Operators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Operators.swift; path = Sources/SQLite/Typed/Operators.swift; sourceTree = "<group>"; };
+		8E782A4EE21A39913F2D5210F879283A /* Pods-Energie4You.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Energie4You.debug.xcconfig"; sourceTree = "<group>"; };
+		8F849ABD33017EE2210D00E2DA0C048F /* Pods-Energie4You-Energie4YouUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Energie4You-Energie4YouUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		953BD95A199F0A722B2EC75A44172CBC /* Pods-Energie4YouTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Energie4YouTests.debug.xcconfig"; sourceTree = "<group>"; };
+		95BD6978B3D8E925DEC724FB71802D3F /* Pods-Energie4You-Energie4YouUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Energie4You-Energie4YouUITests-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9EFE76D17CEBED8651758CAFD215E4FC /* SQLite.swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SQLite.swift.release.xcconfig; sourceTree = "<group>"; };
+		A27848E65374F278BEB3D806D4FE2662 /* Pods-Energie4You.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Energie4You.modulemap"; sourceTree = "<group>"; };
+		A5B346E8CDF2CB097178A16251E30F49 /* Pods-Energie4You-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Energie4You-acknowledgements.plist"; sourceTree = "<group>"; };
+		AAA68E1A054584E05154A345EE0B321C /* AggregateFunctions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AggregateFunctions.swift; path = Sources/SQLite/Typed/AggregateFunctions.swift; sourceTree = "<group>"; };
+		AE05011ACA53AEB047B024594913107F /* Pods-Energie4YouTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Energie4YouTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B64F612711A7C8C440CB6E81C99C9BA4 /* SQLite.swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SQLite.swift.debug.xcconfig; sourceTree = "<group>"; };
+		B900E6B1E806CF0EFA18982C1EE5DC07 /* Helpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Helpers.swift; path = Sources/SQLite/Helpers.swift; sourceTree = "<group>"; };
+		B9A5AEA48928740345A2F1744C2C0C6D /* SQLiteObjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SQLiteObjc.m; path = Sources/SQLiteObjc/SQLiteObjc.m; sourceTree = "<group>"; };
+		BEBBC207E174F77439D1A9B9D4EACB9F /* Statement.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Statement.swift; path = Sources/SQLite/Core/Statement.swift; sourceTree = "<group>"; };
+		C17B7C9F3E999D7DF623B5946E356505 /* SQLite.swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SQLite.swift-dummy.m"; sourceTree = "<group>"; };
+		CD1A1201FC1004656402BC662C68B7D4 /* Pods-Energie4You-Energie4YouUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Energie4You-Energie4YouUITests-frameworks.sh"; sourceTree = "<group>"; };
+		CFA9CE4798CAD3CD061AEC7EEECE1B57 /* SQLite.swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SQLite.swift-prefix.pch"; sourceTree = "<group>"; };
+		D03475F5A126D6F9B31481C9E5867EB7 /* SQLiteObjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SQLiteObjc.h; path = Sources/SQLiteObjc/include/SQLiteObjc.h; sourceTree = "<group>"; };
+		D2069182B694C9047E125FDA74C5E0AA /* Errors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Errors.swift; path = Sources/SQLite/Core/Errors.swift; sourceTree = "<group>"; };
+		D985BC50FE05A0FA5F2667D1CF7F8C6F /* Pods-Energie4YouTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Energie4YouTests.modulemap"; sourceTree = "<group>"; };
+		E4152D918B47C6830DEE72C8770CF608 /* Connection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Connection.swift; path = Sources/SQLite/Core/Connection.swift; sourceTree = "<group>"; };
+		F17034ADABCC2C83FFF6086CEC3FBE02 /* fts3_tokenizer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = fts3_tokenizer.h; path = Sources/SQLiteObjc/fts3_tokenizer.h; sourceTree = "<group>"; };
+		F320EADCBFD92D198B7930FEE0E41E3C /* RTree.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RTree.swift; path = Sources/SQLite/Extensions/RTree.swift; sourceTree = "<group>"; };
+		F5FA45A44C42CC2CA3A324A3E914CE19 /* SQLite.swift */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SQLite.swift; path = SQLite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA3A68A62279CBF13CA2638DE2A6868E /* FTS5.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FTS5.swift; path = Sources/SQLite/Extensions/FTS5.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0629F77618319D788A6FC9BB3C9C56B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1023FA94FB55D049606A9422BDC871C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30F8BCA82E5A842A658D4B8863B87712 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56DFDAF0A4DE091197F9A7700511CBF6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78CB7773F63FEBBEBB9CC7F7F75B1E98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B58FC154F1827BEB366842DB645B4D6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D71554E8619DD9CDE151CD44CC1C24B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0406373C2DA4B7D66EB59E5F33654A0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0802DB832D16BF1A297B91817D01F9B1 /* SQLite.swift */ = {
+			isa = PBXGroup;
+			children = (
+				0AFE13750D92927E77A316E2E5E09D7E /* standard */,
+				8686AA6C03D39BFA87D1FB31308B4A72 /* Support Files */,
+			);
+			name = SQLite.swift;
+			path = SQLite.swift;
+			sourceTree = "<group>";
+		};
+		0AFE13750D92927E77A316E2E5E09D7E /* standard */ = {
+			isa = PBXGroup;
+			children = (
+				AAA68E1A054584E05154A345EE0B321C /* AggregateFunctions.swift */,
+				57CC3D6F8E4EE3D1356AC189C751A0B5 /* Blob.swift */,
+				07001700AD11267075AFE4FD2C80D033 /* Coding.swift */,
+				0B766B654D9F683D76B0D5E875AB1D16 /* Collation.swift */,
+				E4152D918B47C6830DEE72C8770CF608 /* Connection.swift */,
+				65F7A3AD4DEC9CFC4E7403C1A3A1D9CD /* CoreFunctions.swift */,
+				7E46512F34DDA6D7CE8210E887D18AC4 /* CustomFunctions.swift */,
+				5CD6930F976E00ACD360ED277DA0B636 /* DateAndTimeFunctions.swift */,
+				D2069182B694C9047E125FDA74C5E0AA /* Errors.swift */,
+				77379F600D91CEB0D7F699F04CC353A7 /* Expression.swift */,
+				2FC3F18ACDFCBBEFFA1F95A13A1B6919 /* Foundation.swift */,
+				F17034ADABCC2C83FFF6086CEC3FBE02 /* fts3_tokenizer.h */,
+				6A123E51111823403249F3A2B7C4C38E /* FTS4.swift */,
+				FA3A68A62279CBF13CA2638DE2A6868E /* FTS5.swift */,
+				B900E6B1E806CF0EFA18982C1EE5DC07 /* Helpers.swift */,
+				8AA0F581AFA787466D89355FBEA84774 /* Operators.swift */,
+				1AB588A063A7ABE125919824DC5A21A5 /* Query.swift */,
+				F320EADCBFD92D198B7930FEE0E41E3C /* RTree.swift */,
+				537D2153CA33638146911BEE2339AAA9 /* Schema.swift */,
+				7DCEC55EAEE07401F738B646F1F04076 /* Setter.swift */,
+				0322C314C5D75641387E222BFA39F7F1 /* SQLite.h */,
+				D03475F5A126D6F9B31481C9E5867EB7 /* SQLiteObjc.h */,
+				B9A5AEA48928740345A2F1744C2C0C6D /* SQLiteObjc.m */,
+				BEBBC207E174F77439D1A9B9D4EACB9F /* Statement.swift */,
+				75DB56BFAB94A98B7401A1931B423E0D /* Value.swift */,
+			);
+			name = standard;
+			sourceTree = "<group>";
+		};
+		578E55BA0FDCBB81D5D56998C4C495FC /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FCE80231986F15E30519F4C0481BCF63 /* Pods-Energie4You */,
+				FDE6F2E0504BECD94710EFB70F67C098 /* Pods-Energie4You-Energie4YouUITests */,
+				CE7B7A29A97B73EBF078FD97FDA90916 /* Pods-Energie4YouTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		8686AA6C03D39BFA87D1FB31308B4A72 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				594004FEEF03486B1F4102F35A1C71A9 /* SQLite.swift.modulemap */,
+				C17B7C9F3E999D7DF623B5946E356505 /* SQLite.swift-dummy.m */,
+				85075ADD95B6C0F7592CDEC04ECC2113 /* SQLite.swift-Info.plist */,
+				CFA9CE4798CAD3CD061AEC7EEECE1B57 /* SQLite.swift-prefix.pch */,
+				7ED61F86CB94AB4E62FE72E9541AC218 /* SQLite.swift-umbrella.h */,
+				B64F612711A7C8C440CB6E81C99C9BA4 /* SQLite.swift.debug.xcconfig */,
+				9EFE76D17CEBED8651758CAFD215E4FC /* SQLite.swift.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SQLite.swift";
+			sourceTree = "<group>";
+		};
+		9C7F1875E201FDD0DED29CB3994FA086 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0802DB832D16BF1A297B91817D01F9B1 /* SQLite.swift */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AF35D5F6A907C975D43036D7E03E7264 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D656362DD283EE644AC33A2940ABD82 /* Pods-Energie4You */,
+				2FB70F8499C35FF7C2CA4123D1C2767E /* Pods-Energie4You-Energie4YouUITests */,
+				371DD9A05F1D3ED313B409EEF6FB2AB4 /* Pods-Energie4YouTests */,
+				F5FA45A44C42CC2CA3A324A3E914CE19 /* SQLite.swift */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE7B7A29A97B73EBF078FD97FDA90916 /* Pods-Energie4YouTests */ = {
+			isa = PBXGroup;
+			children = (
+				D985BC50FE05A0FA5F2667D1CF7F8C6F /* Pods-Energie4YouTests.modulemap */,
+				AE05011ACA53AEB047B024594913107F /* Pods-Energie4YouTests-acknowledgements.markdown */,
+				6DE0616472B1B0BF88AF238EB3139BB6 /* Pods-Energie4YouTests-acknowledgements.plist */,
+				3501A1BBD3FDD1B5575A6B29F6A60F9A /* Pods-Energie4YouTests-dummy.m */,
+				7C062F4CEAC0B9DF1806789D3D8842FE /* Pods-Energie4YouTests-Info.plist */,
+				0A907C1E6E3C05B132C335F0E14773C6 /* Pods-Energie4YouTests-umbrella.h */,
+				953BD95A199F0A722B2EC75A44172CBC /* Pods-Energie4YouTests.debug.xcconfig */,
+				55964B5A971C4F99A9FAA1C816379F8B /* Pods-Energie4YouTests.release.xcconfig */,
+			);
+			name = "Pods-Energie4YouTests";
+			path = "Target Support Files/Pods-Energie4YouTests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				9C7F1875E201FDD0DED29CB3994FA086 /* Pods */,
+				AF35D5F6A907C975D43036D7E03E7264 /* Products */,
+				578E55BA0FDCBB81D5D56998C4C495FC /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E4801F62A6B08CD9B5410329F1A18FDE /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E4801F62A6B08CD9B5410329F1A18FDE /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		FCE80231986F15E30519F4C0481BCF63 /* Pods-Energie4You */ = {
+			isa = PBXGroup;
+			children = (
+				A27848E65374F278BEB3D806D4FE2662 /* Pods-Energie4You.modulemap */,
+				877088BBD463001DD4A7C2134F1B730F /* Pods-Energie4You-acknowledgements.markdown */,
+				A5B346E8CDF2CB097178A16251E30F49 /* Pods-Energie4You-acknowledgements.plist */,
+				3B79B5F7EE2778B52AFDB1E33E6C88FC /* Pods-Energie4You-dummy.m */,
+				31DE530A17EC63EDF97C92A7E090333B /* Pods-Energie4You-frameworks.sh */,
+				5A37F8992AF06A5D9A30D3593D02F825 /* Pods-Energie4You-Info.plist */,
+				79ECD6AB785E09463C9B4A4C04791CD4 /* Pods-Energie4You-umbrella.h */,
+				8E782A4EE21A39913F2D5210F879283A /* Pods-Energie4You.debug.xcconfig */,
+				496496E9693CCAC8EFF0FF8B2FC3B82C /* Pods-Energie4You.release.xcconfig */,
+			);
+			name = "Pods-Energie4You";
+			path = "Target Support Files/Pods-Energie4You";
+			sourceTree = "<group>";
+		};
+		FDE6F2E0504BECD94710EFB70F67C098 /* Pods-Energie4You-Energie4YouUITests */ = {
+			isa = PBXGroup;
+			children = (
+				79B25B117AEFCF7C61BF238C6918E90F /* Pods-Energie4You-Energie4YouUITests.modulemap */,
+				5EAC56276648C54C1509548F68A13DDC /* Pods-Energie4You-Energie4YouUITests-acknowledgements.markdown */,
+				8F849ABD33017EE2210D00E2DA0C048F /* Pods-Energie4You-Energie4YouUITests-acknowledgements.plist */,
+				95BD6978B3D8E925DEC724FB71802D3F /* Pods-Energie4You-Energie4YouUITests-dummy.m */,
+				CD1A1201FC1004656402BC662C68B7D4 /* Pods-Energie4You-Energie4YouUITests-frameworks.sh */,
+				8A219801A0F59B7290A329D4C76801C1 /* Pods-Energie4You-Energie4YouUITests-Info.plist */,
+				3215417B8CD6D796477A300852B02EA2 /* Pods-Energie4You-Energie4YouUITests-umbrella.h */,
+				42B66EA6AD3DEB1F1E9A3718E2C63B8D /* Pods-Energie4You-Energie4YouUITests.debug.xcconfig */,
+				3144C31B75F4D40A6E44624FCECAB15D /* Pods-Energie4You-Energie4YouUITests.release.xcconfig */,
+			);
+			name = "Pods-Energie4You-Energie4YouUITests";
+			path = "Target Support Files/Pods-Energie4You-Energie4YouUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3419A621F0A28AA150AA4B7F29F2D634 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DC7EF4C37E4CF81BC2F3339B44814A0 /* Pods-Energie4YouTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3739E7F6864F84EB0613B3136E59B651 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52CA054D8647B9D145C818B3C49FC2C8 /* Pods-Energie4You-Energie4YouUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E906911275E18DFDCA1D306FDFADE33 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21CB7949E4E7D1446851AE5EAA7379DB /* Pods-Energie4You-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB65905546B1FC99FE95325AAA376CE0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A36BD4750D6C78AFEA25966B1985C74E /* fts3_tokenizer.h in Headers */,
+				435FD6FAB1F6CAA69B7DD06F6511E35C /* SQLite.h in Headers */,
+				2E22078E97A961BB5CAF84CA9567133B /* SQLite.swift-umbrella.h in Headers */,
+				548161CD6D0298940EF8FA24028873E9 /* SQLiteObjc.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		22C2A044CF66FC55C37A0F5542CB208E /* Pods-Energie4You-Energie4YouUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2579873017649DD91512DC69EA29D32F /* Build configuration list for PBXNativeTarget "Pods-Energie4You-Energie4YouUITests" */;
+			buildPhases = (
+				3739E7F6864F84EB0613B3136E59B651 /* Headers */,
+				6743E594F0B1508725B0DA994E14229B /* Sources */,
+				D71554E8619DD9CDE151CD44CC1C24B7 /* Frameworks */,
+				B04B77EEBF452587264715F9BBE18B76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1264FA5032467C312FDCAD49B5254CAB /* PBXTargetDependency */,
+			);
+			name = "Pods-Energie4You-Energie4YouUITests";
+			productName = Pods_Energie4You_Energie4YouUITests;
+			productReference = 2FB70F8499C35FF7C2CA4123D1C2767E /* Pods-Energie4You-Energie4YouUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+		3F2C1776D90B62B156DB52C41A5C419C /* SQLite.swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8E45D395B03440B19425ECD6E2DDCFC /* Build configuration list for PBXNativeTarget "SQLite.swift" */;
+			buildPhases = (
+				FB65905546B1FC99FE95325AAA376CE0 /* Headers */,
+				0EDB87D87F780EC35076458564BF7266 /* Sources */,
+				78CB7773F63FEBBEBB9CC7F7F75B1E98 /* Frameworks */,
+				BBBE5183E97B385B9B299CF0F124A62A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SQLite.swift;
+			productName = SQLite;
+			productReference = F5FA45A44C42CC2CA3A324A3E914CE19 /* SQLite.swift */;
+			productType = "com.apple.product-type.framework";
+		};
+		ADC1D4F3F556F6AADBAFB22BA717AC8A /* Pods-Energie4You */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A75571E01BFE5BFE8586CF3070D991A /* Build configuration list for PBXNativeTarget "Pods-Energie4You" */;
+			buildPhases = (
+				7E906911275E18DFDCA1D306FDFADE33 /* Headers */,
+				0C9A744366562A8631944ACFCA41A9F3 /* Sources */,
+				0629F77618319D788A6FC9BB3C9C56B2 /* Frameworks */,
+				7A62D4782BECA9C857302B022C82D239 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2675926D8872E7CA352861C68305BDC2 /* PBXTargetDependency */,
+			);
+			name = "Pods-Energie4You";
+			productName = Pods_Energie4You;
+			productReference = 5D656362DD283EE644AC33A2940ABD82 /* Pods-Energie4You */;
+			productType = "com.apple.product-type.framework";
+		};
+		CC8BD33ECAE6669F4DDC1157B3AACA94 /* Pods-Energie4YouTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FECA7E33771B5E9DF4E6BC410190ACB /* Build configuration list for PBXNativeTarget "Pods-Energie4YouTests" */;
+			buildPhases = (
+				3419A621F0A28AA150AA4B7F29F2D634 /* Headers */,
+				087A2AB23BEB78260FD67B7BFB7C941F /* Sources */,
+				30F8BCA82E5A842A658D4B8863B87712 /* Frameworks */,
+				02E971D19026178209337F32F42ABC67 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				73E2954BE01FDE32B228DD0DE068DEB0 /* PBXTargetDependency */,
+			);
+			name = "Pods-Energie4YouTests";
+			productName = Pods_Energie4YouTests;
+			productReference = 371DD9A05F1D3ED313B409EEF6FB2AB4 /* Pods-Energie4YouTests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 16.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			minimizedProjectReferenceProxies = 0;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = AF35D5F6A907C975D43036D7E03E7264 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ADC1D4F3F556F6AADBAFB22BA717AC8A /* Pods-Energie4You */,
+				22C2A044CF66FC55C37A0F5542CB208E /* Pods-Energie4You-Energie4YouUITests */,
+				CC8BD33ECAE6669F4DDC1157B3AACA94 /* Pods-Energie4YouTests */,
+				3F2C1776D90B62B156DB52C41A5C419C /* SQLite.swift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		02E971D19026178209337F32F42ABC67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A62D4782BECA9C857302B022C82D239 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B04B77EEBF452587264715F9BBE18B76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBBE5183E97B385B9B299CF0F124A62A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		087A2AB23BEB78260FD67B7BFB7C941F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3166C3BDC0E6BE35B1B7F0CAF33CB71B /* Pods-Energie4YouTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C9A744366562A8631944ACFCA41A9F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EF5D0DC3DAF38444AB4367761C168C0 /* Pods-Energie4You-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0EDB87D87F780EC35076458564BF7266 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D38D12019CAAF7DC9AAF018F60674ED4 /* AggregateFunctions.swift in Sources */,
+				9102C145565BDDAFD07FF938958F16DC /* Blob.swift in Sources */,
+				9FB4C9F87DE6CF1DC55190B23DFB9BAC /* Coding.swift in Sources */,
+				EA84CCF02D76B0915475C29D7880EDF3 /* Collation.swift in Sources */,
+				C08BCC272FEB57C57C5D46707880801C /* Connection.swift in Sources */,
+				630A831797CF918AFEEA1A5CD121D38F /* CoreFunctions.swift in Sources */,
+				88CD9CF0290EF3B7CDFFEC9F1C6CC1DC /* CustomFunctions.swift in Sources */,
+				E18DF33E28064642A96F5B7E126635F8 /* DateAndTimeFunctions.swift in Sources */,
+				E9153173AE183A3459976030A8B7C280 /* Errors.swift in Sources */,
+				902669E2CF98A58B146F96702692AF75 /* Expression.swift in Sources */,
+				DD27B72C5284D2BBBEACCE09F60C16DB /* Foundation.swift in Sources */,
+				FC5586AAFEB28437A8989DDE74787DA4 /* FTS4.swift in Sources */,
+				A491D631C9034A24FD669C8CC5FAF615 /* FTS5.swift in Sources */,
+				027436C38F17287CF56B16EE4D62F25F /* Helpers.swift in Sources */,
+				F2CD078A02E17B3F466516B181805B79 /* Operators.swift in Sources */,
+				16FE8C80FC03EB8E0D54B764183F0D73 /* Query.swift in Sources */,
+				D8ADA7B4AAF6F4C8E73AA8C511B9CCC4 /* RTree.swift in Sources */,
+				84251D4983F485625C0B17B42D1DACD5 /* Schema.swift in Sources */,
+				E1B60D177E040F6B125ED0141DA77497 /* Setter.swift in Sources */,
+				1AB0D53EE23AC3F809A898E69CCE92EC /* SQLite.swift-dummy.m in Sources */,
+				816967475757626552445596EB929532 /* SQLiteObjc.m in Sources */,
+				58EDA440377739B81E542D7F983AFF73 /* Statement.swift in Sources */,
+				B351461EFC21BD843A293726F9EA602E /* Value.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6743E594F0B1508725B0DA994E14229B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF3F4E1671F32E1B48D50505F47FE382 /* Pods-Energie4You-Energie4YouUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1264FA5032467C312FDCAD49B5254CAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SQLite.swift;
+			target = 3F2C1776D90B62B156DB52C41A5C419C /* SQLite.swift */;
+			targetProxy = 48D29D369E43DEBFD44735D601FA80B0 /* PBXContainerItemProxy */;
+		};
+		2675926D8872E7CA352861C68305BDC2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SQLite.swift;
+			target = 3F2C1776D90B62B156DB52C41A5C419C /* SQLite.swift */;
+			targetProxy = 141C1E28D4723F9DD1AD9C13BDCE1896 /* PBXContainerItemProxy */;
+		};
+		73E2954BE01FDE32B228DD0DE068DEB0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Energie4You";
+			target = ADC1D4F3F556F6AADBAFB22BA717AC8A /* Pods-Energie4You */;
+			targetProxy = 640248E5DF7696A1C02F77D92181FF67 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2E4D03054B44FB82272024291944859A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3144C31B75F4D40A6E44624FCECAB15D /* Pods-Energie4You-Energie4YouUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-Energie4You-Energie4YouUITests/Pods-Energie4You-Energie4YouUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Energie4You-Energie4YouUITests/Pods-Energie4You-Energie4YouUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4EB42FEC8C04261AE565A16F5D6E6FFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 496496E9693CCAC8EFF0FF8B2FC3B82C /* Pods-Energie4You.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-Energie4You/Pods-Energie4You-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Energie4You/Pods-Energie4You.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		505D1978485BD8D7435B660CB94D8161 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 953BD95A199F0A722B2EC75A44172CBC /* Pods-Energie4YouTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-Energie4YouTests/Pods-Energie4YouTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Energie4YouTests/Pods-Energie4YouTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		59E8734DA70715406493CA912F854277 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		5A49448602EC1B17D12ADB02D6EE73BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		740B56F11FD1F16F0A46416085E2C97E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55964B5A971C4F99A9FAA1C816379F8B /* Pods-Energie4YouTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-Energie4YouTests/Pods-Energie4YouTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Energie4YouTests/Pods-Energie4YouTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		ABD0346558A2197FE8B1952121489896 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42B66EA6AD3DEB1F1E9A3718E2C63B8D /* Pods-Energie4You-Energie4YouUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-Energie4You-Energie4YouUITests/Pods-Energie4You-Energie4YouUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Energie4You-Energie4YouUITests/Pods-Energie4You-Energie4YouUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B2301413F59D1ADB8FA3E2C98F11FE28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9EFE76D17CEBED8651758CAFD215E4FC /* SQLite.swift.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/SQLite.swift/SQLite.swift-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/SQLite.swift/SQLite.swift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SQLite.swift/SQLite.swift.modulemap";
+				PRODUCT_MODULE_NAME = SQLite;
+				PRODUCT_NAME = SQLite;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DB6D683F83180678D516819FF284C4EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E782A4EE21A39913F2D5210F879283A /* Pods-Energie4You.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-Energie4You/Pods-Energie4You-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Energie4You/Pods-Energie4You.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DDD361754DAE11753D6E704CA69E1138 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B64F612711A7C8C440CB6E81C99C9BA4 /* SQLite.swift.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/SQLite.swift/SQLite.swift-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/SQLite.swift/SQLite.swift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SQLite.swift/SQLite.swift.modulemap";
+				PRODUCT_MODULE_NAME = SQLite;
+				PRODUCT_NAME = SQLite;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2579873017649DD91512DC69EA29D32F /* Build configuration list for PBXNativeTarget "Pods-Energie4You-Energie4YouUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABD0346558A2197FE8B1952121489896 /* Debug */,
+				2E4D03054B44FB82272024291944859A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59E8734DA70715406493CA912F854277 /* Debug */,
+				5A49448602EC1B17D12ADB02D6EE73BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5FECA7E33771B5E9DF4E6BC410190ACB /* Build configuration list for PBXNativeTarget "Pods-Energie4YouTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				505D1978485BD8D7435B660CB94D8161 /* Debug */,
+				740B56F11FD1F16F0A46416085E2C97E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A75571E01BFE5BFE8586CF3070D991A /* Build configuration list for PBXNativeTarget "Pods-Energie4You" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB6D683F83180678D516819FF284C4EC /* Debug */,
+				4EB42FEC8C04261AE565A16F5D6E6FFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8E45D395B03440B19425ECD6E2DDCFC /* Build configuration list for PBXNativeTarget "SQLite.swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDD361754DAE11753D6E704CA69E1138 /* Debug */,
+				B2301413F59D1ADB8FA3E2C98F11FE28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

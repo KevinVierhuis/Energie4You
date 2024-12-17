@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		8661A60E2D10FBBF00D27DCC /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8661A60D2D10FBBF00D27DCC /* libsqlite3.tbd */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		8661A5C52D0DCB6000D27DCC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,9 +28,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		02B70150ACBAB7E400224205 /* Pods-Energie4You-Energie4YouUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Energie4You-Energie4YouUITests.release.xcconfig"; path = "Target Support Files/Pods-Energie4You-Energie4YouUITests/Pods-Energie4You-Energie4YouUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2D723DB7D21CF3C41E3AFCB0 /* Pods-Energie4You.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Energie4You.debug.xcconfig"; path = "Target Support Files/Pods-Energie4You/Pods-Energie4You.debug.xcconfig"; sourceTree = "<group>"; };
+		45633146B75F61F277A36EA0 /* Pods-Energie4You-Energie4YouUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Energie4You-Energie4YouUITests.debug.xcconfig"; path = "Target Support Files/Pods-Energie4You-Energie4YouUITests/Pods-Energie4You-Energie4YouUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		8661A5B42D0DCB6000D27DCC /* Energie4You.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Energie4You.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8661A5C42D0DCB6000D27DCC /* Energie4YouTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Energie4YouTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8661A5CE2D0DCB6000D27DCC /* Energie4YouUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Energie4YouUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8661A60D2D10FBBF00D27DCC /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		9FA7F0C1DD86800D83BB1B13 /* Pods-Energie4YouTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Energie4YouTests.release.xcconfig"; path = "Target Support Files/Pods-Energie4YouTests/Pods-Energie4YouTests.release.xcconfig"; sourceTree = "<group>"; };
+		B746E81690E5A38D5B033DEC /* Pods-Energie4You.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Energie4You.release.xcconfig"; path = "Target Support Files/Pods-Energie4You/Pods-Energie4You.release.xcconfig"; sourceTree = "<group>"; };
+		F6AF5F267375EE2B681F5870 /* Pods-Energie4YouTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Energie4YouTests.debug.xcconfig"; path = "Target Support Files/Pods-Energie4YouTests/Pods-Energie4YouTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -52,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8661A60E2D10FBBF00D27DCC /* libsqlite3.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,13 +84,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3765F885DF1B71CB8A855920 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2D723DB7D21CF3C41E3AFCB0 /* Pods-Energie4You.debug.xcconfig */,
+				B746E81690E5A38D5B033DEC /* Pods-Energie4You.release.xcconfig */,
+				45633146B75F61F277A36EA0 /* Pods-Energie4You-Energie4YouUITests.debug.xcconfig */,
+				02B70150ACBAB7E400224205 /* Pods-Energie4You-Energie4YouUITests.release.xcconfig */,
+				F6AF5F267375EE2B681F5870 /* Pods-Energie4YouTests.debug.xcconfig */,
+				9FA7F0C1DD86800D83BB1B13 /* Pods-Energie4YouTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		8661A5AB2D0DCB6000D27DCC = {
 			isa = PBXGroup;
 			children = (
 				8661A5B62D0DCB6000D27DCC /* Energie4You */,
 				8661A5C72D0DCB6000D27DCC /* Energie4YouTests */,
 				8661A5D12D0DCB6000D27DCC /* Energie4YouUITests */,
+				8661A60C2D10FBBF00D27DCC /* Frameworks */,
 				8661A5B52D0DCB6000D27DCC /* Products */,
+				3765F885DF1B71CB8A855920 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -92,6 +119,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		8661A60C2D10FBBF00D27DCC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8661A60D2D10FBBF00D27DCC /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -99,9 +134,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8661A5D82D0DCB6000D27DCC /* Build configuration list for PBXNativeTarget "Energie4You" */;
 			buildPhases = (
+				59752E21AA5215AB6870554E /* [CP] Check Pods Manifest.lock */,
 				8661A5B02D0DCB6000D27DCC /* Sources */,
 				8661A5B12D0DCB6000D27DCC /* Frameworks */,
 				8661A5B22D0DCB6000D27DCC /* Resources */,
+				E100D97A366D453FE4B6AD98 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -111,8 +148,6 @@
 				8661A5B62D0DCB6000D27DCC /* Energie4You */,
 			);
 			name = Energie4You;
-			packageProductDependencies = (
-			);
 			productName = Energie4You;
 			productReference = 8661A5B42D0DCB6000D27DCC /* Energie4You.app */;
 			productType = "com.apple.product-type.application";
@@ -121,6 +156,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8661A5DB2D0DCB6000D27DCC /* Build configuration list for PBXNativeTarget "Energie4YouTests" */;
 			buildPhases = (
+				D89DDBA6D438EADA626FD5AF /* [CP] Check Pods Manifest.lock */,
 				8661A5C02D0DCB6000D27DCC /* Sources */,
 				8661A5C12D0DCB6000D27DCC /* Frameworks */,
 				8661A5C22D0DCB6000D27DCC /* Resources */,
@@ -134,8 +170,6 @@
 				8661A5C72D0DCB6000D27DCC /* Energie4YouTests */,
 			);
 			name = Energie4YouTests;
-			packageProductDependencies = (
-			);
 			productName = Energie4YouTests;
 			productReference = 8661A5C42D0DCB6000D27DCC /* Energie4YouTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -144,9 +178,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8661A5DE2D0DCB6000D27DCC /* Build configuration list for PBXNativeTarget "Energie4YouUITests" */;
 			buildPhases = (
+				C57507AEE3621C0B953DDCF6 /* [CP] Check Pods Manifest.lock */,
 				8661A5CA2D0DCB6000D27DCC /* Sources */,
 				8661A5CB2D0DCB6000D27DCC /* Frameworks */,
 				8661A5CC2D0DCB6000D27DCC /* Resources */,
+				D0211B29C2DAED3D5774FDB6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -157,8 +193,6 @@
 				8661A5D12D0DCB6000D27DCC /* Energie4YouUITests */,
 			);
 			name = Energie4YouUITests;
-			packageProductDependencies = (
-			);
 			productName = Energie4YouUITests;
 			productReference = 8661A5CE2D0DCB6000D27DCC /* Energie4YouUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
@@ -171,7 +205,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1610;
-				LastUpgradeCheck = 1610;
+				LastUpgradeCheck = 1620;
 				TargetAttributes = {
 					8661A5B32D0DCB6000D27DCC = {
 						CreatedOnToolsVersion = 16.1;
@@ -195,6 +229,9 @@
 			);
 			mainGroup = 8661A5AB2D0DCB6000D27DCC;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				8661A60B2D10F9F100D27DCC /* XCRemoteSwiftPackageReference "realm-cocoa" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 8661A5B52D0DCB6000D27DCC /* Products */;
 			projectDirPath = "";
@@ -230,6 +267,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		59752E21AA5215AB6870554E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Energie4You-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C57507AEE3621C0B953DDCF6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Energie4You-Energie4YouUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D0211B29C2DAED3D5774FDB6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Energie4You-Energie4YouUITests/Pods-Energie4You-Energie4YouUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Energie4You-Energie4YouUITests/Pods-Energie4You-Energie4YouUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Energie4You-Energie4YouUITests/Pods-Energie4You-Energie4YouUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D89DDBA6D438EADA626FD5AF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Energie4YouTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E100D97A366D453FE4B6AD98 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Energie4You/Pods-Energie4You-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Energie4You/Pods-Energie4You-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Energie4You/Pods-Energie4You-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8661A5B02D0DCB6000D27DCC /* Sources */ = {
@@ -390,6 +530,7 @@
 		};
 		8661A5D92D0DCB6000D27DCC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D723DB7D21CF3C41E3AFCB0 /* Pods-Energie4You.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -399,6 +540,12 @@
 				DEVELOPMENT_TEAM = B9R2246AL3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Energie4You/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Energie4You;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSAppleMusicUsageDescription = "Energie4You heeft toegang nodig tot uw foto's voor defect registratie";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Energie4You Heeft camera toegang nodig voor defect registratie";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Energie4You heeft toegang nodig tot je locatie voor de registratie van het defect";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -412,13 +559,16 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Kevin.Energie4You;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "";
 			};
 			name = Debug;
 		};
 		8661A5DA2D0DCB6000D27DCC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B746E81690E5A38D5B033DEC /* Pods-Energie4You.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -428,6 +578,12 @@
 				DEVELOPMENT_TEAM = B9R2246AL3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Energie4You/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Energie4You;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSAppleMusicUsageDescription = "Energie4You heeft toegang nodig tot uw foto's voor defect registratie";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Energie4You Heeft camera toegang nodig voor defect registratie";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Energie4You heeft toegang nodig tot je locatie voor de registratie van het defect";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -441,13 +597,16 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Kevin.Energie4You;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "";
 			};
 			name = Release;
 		};
 		8661A5DC2D0DCB6000D27DCC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6AF5F267375EE2B681F5870 /* Pods-Energie4YouTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -467,6 +626,7 @@
 		};
 		8661A5DD2D0DCB6000D27DCC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FA7F0C1DD86800D83BB1B13 /* Pods-Energie4YouTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -486,6 +646,7 @@
 		};
 		8661A5DF2D0DCB6000D27DCC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45633146B75F61F277A36EA0 /* Pods-Energie4You-Energie4YouUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -503,6 +664,7 @@
 		};
 		8661A5E02D0DCB6000D27DCC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02B70150ACBAB7E400224205 /* Pods-Energie4You-Energie4YouUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -558,6 +720,17 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8661A60B2D10F9F100D27DCC /* XCRemoteSwiftPackageReference "realm-cocoa" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-cocoa.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
 	};
 	rootObject = 8661A5AC2D0DCB6000D27DCC /* Project object */;
 }

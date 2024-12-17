@@ -1,0 +1,6 @@
+framework module Pods_Energie4You {
+  umbrella header "Pods-Energie4You-umbrella.h"
+
+  export *
+  module * { export * }
+}

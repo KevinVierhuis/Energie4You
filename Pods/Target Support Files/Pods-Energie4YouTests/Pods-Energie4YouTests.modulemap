@@ -1,0 +1,6 @@
+framework module Pods_Energie4YouTests {
+  umbrella header "Pods-Energie4YouTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
